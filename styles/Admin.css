@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+
+body{
+    background-color: bisque;
+}
+
+.contenedor{
+    margin-top: 2%;
+    width: 100%;
+    height: 80%;
+    justify-content: center;
+    margin-bottom: 20%;
+    color: black;
+}
+
+.contenedor .div-formulario{
+    width: 30%;
+    height: 100%;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px;
+    box-shadow:10px 10px rgba(0, 0, 0, 0.3);
+    margin: auto;
+}
+
+.contenedor .div-formulario h2{
+    margin-top: 10%;
+    font-weight: 300;
+    font-size: 2em;
+    color: whitesmoke;
+}
+
+.contenedor .div-formulario form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor .div-formulario form input, .contenedor .div-formulario form button{
+    width: 60%;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    border-radius: 10px;
+    border: solid 1px grey;
+}
+.contenedor .div-productoscargados{
+    display: block;
+    
+}
+.contenedor .div-productoscargados h2{
+    font-weight: 300;
+    font-size: 2em;
+    color: black;
+    margin-top: 15px;
+    text-align: center;
+}
+.contenedor .div-productoscargados .div-productos p{
+    margin: 10px 0;
+    font-size: 1em;
+    color: black;
+}
+
+hr{
+    padding: 5px 10px;
+    border: none;
+    margin: 0 5px;
+    color: black;
+    border-radius: 50px ;
+}
+
+.btn-editar{
+    background-color: green;
+}
+
+.btn-eliminar{
+    background-color: red;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.navbar{
+    width: 100%;
+
+}
+
+.linksNavbar{
+    text-decoration: none;
+    color:black;
+    padding: 50px;
+
+}
+
+.buscarNavbar{
+    height: 25px;
+    width: 500px;
+    border-radius: 25px;
+    border: solid 1px;
+    border-color: grey;
+    outline: none;
+}
+
+.btnIniciarSesion{
+    color: black;
+    border: black solid 1px;
+    border-radius: 10px;
+    padding: 5px;
+    text-decoration: none;
+
+}
+
+.buttonIniciarSesion:hover{
+    cursor: pointer;
+
+} */
+
+
+
+
+
+/* .inputBox{
+    background-color: white;
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px;
+    margin: 2px;
+    border: solid 1px;
+} */ 

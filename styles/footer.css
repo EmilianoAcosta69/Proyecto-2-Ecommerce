@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+
+
+.form-Novedades{
+    background-color:#D9D9D9 ;
+    color: #484848;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    width: 100%;
+    border-bottom: solid #484848 1px;
+    border-top: solid #484848 2px;
+    letter-spacing: 0.5px;
+}
+
+.inputEmail{
+    background-color: #D9D9D9;
+    color: #484848;
+    border-radius: 8px;
+    padding: auto;
+    text-align: center;
+    border: solid #484848 2px;
+    outline: none;
+    margin: 5px;
+}
+
+.botonSuscribirse{
+    color: #484848;
+    border: none;
+    background-color: #D9D9D9;
+    padding: 5px;
+    letter-spacing: 0.5px;
+}
+
+.botonSuscribirse:hover{
+    color: #3a8b6b;
+    border-bottom: solid #3a8b6b 3px;
+    border-radius: 2px;
+}
+
+.conteiner-Footer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #D9D9D9;
+    border-bottom: solid #484848 1px;
+    border-top: solid #484848 1px;
+    padding: 10px;
+    width: 100%;
+}
+.logo-Ecommerce{
+    display: block;
+    padding: 10px;
+    color: #484848;
+    margin: auto;
+}
+img{
+    width: 250px;
+    height: 220px;
+}
+
+.conteiner-Redes{
+    display: block;
+    padding: 10px;
+    color: #484848;
+    margin: auto;
+}
+
+.iconoRedes{
+    text-decoration: none;
+    color: #484848;
+    font-size: 25px;
+    padding: 10px;
+}
+.iconoRedes:hover{
+    color: #3a8b6b;
+}
+.conteiner-Informacion{
+    display: block;
+    padding: 10px;
+    color: #484848;
+    margin: auto;
+}
+.button-Info{
+    display: block;
+    text-decoration: none;
+    color: #484848;
+    font-size: 18px;
+    padding: 2px;
+}
+.button-Info:hover{
+    color: #3a8b6b;
+}
+.conteiner-Derechos{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #D9D9D9;
+    border-bottom: solid #484848 2px;
+    border-top: solid #484848 1px;
+    padding: 10px;
+    width: 100%;
+}
+.nombreEc{
+    color: #484848;
+    text-decoration: none;
+}
+
+.nombreEc:hover{
+    color: #3a8b6b;
+    
+}
+@media (max-width:800px){
+    .form-Novedades{
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .inputEmail{
+        background-color: #D9D9D9;
+        color: #484848;
+        border-radius: 8px;
+        width: 60%;
+        margin: auto;
+        border: solid #484848 2px;
+        outline: none;
+    }
+    .botonSuscribirse:hover{
+        color: #3a8b6b;
+        border-bottom: solid #3a8b6b 3px;
+        border-radius: 2px;
+        width: 50%;
+        margin: auto;
+    }
+    
+    .conteiner-Footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        background-color: #D9D9D9;
+        border-bottom: solid #484848 1px;
+        border-top: solid #484848 1px;
+        padding: 10px;
+        width: 100%;
+    }
+    .iconoRedes{
+        text-decoration: none;
+        color: #484848;
+        font-size: 25px;
+        padding: 10px;
+    }
+    .button-Info{
+        display: block;
+        text-decoration: none;
+        color: #484848;
+        font-size: 15px;
+        
+    }
+}
+@media (max-width:510px){
+    .form-Novedades{
+        background-color:#D9D9D9 ;
+        color: #484848;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 15px;
+        width: 100%;
+        border-bottom: solid #484848 1px;
+        border-top: solid #484848 2px;
+        letter-spacing: 0.5px;
+        font-size: 15px;
+    }
+    .inputEmail{
+        background-color: #D9D9D9;
+        color: #484848;
+        border-radius: 8px;
+        width: 60%;
+        margin: auto;
+        border: solid #484848 2px;
+        outline: none;
+    }
+    .botonSuscribirse:hover{
+        color: #3a8b6b;
+        border-bottom: solid #3a8b6b 3px;
+        border-radius: 2px;
+        width: 50%;
+        margin: auto;
+    }
+    
+    .conteiner-Footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        background-color: #D9D9D9;
+        border-bottom: solid #484848 1px;
+        border-top: solid #484848 1px;
+        padding: 10px;
+        width: 100%;
+    }
+
+}
+
